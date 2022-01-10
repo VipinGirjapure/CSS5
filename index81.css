@@ -1,0 +1,104 @@
+.parent{
+background-color: aqua;
+height: 110vh;
+width: 98vw;
+
+}
+.parent1{
+    display: flex;
+    background-color: red;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem;
+}
+.ch1{
+    height: 7rem;
+    width: 7rem;
+    background-color: whitesmoke;
+ 
+   transition-property: width;
+   transition-duration: 3s;
+   transition-timing-function: ease-in-out;
+}
+.ch1:hover{
+    width: 18.75rem;
+}
+.ch2{
+    height: 7rem;
+    width: 7rem;
+    background-color: whitesmoke;
+    transition-property:width,height;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+}
+.ch2:hover{
+    height: 15rem;
+    width: 15rem;
+
+} 
+
+
+.ch3{
+    height: 7rem;
+    width: 7rem;
+    background-color: whitesmoke;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+.ch3:hover{
+    width: 18.75rem;
+}
+.ch4{
+    height: 7rem;
+    width: 7rem;
+    background-color: whitesmoke;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+.ch4:hover{
+    width: 18.75rem;
+}
+.ch5{  height: 7rem;
+    width: 7rem;
+    background-color: whitesmoke;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+}
+.ch5:hover{
+    width: 18.75rem;
+    }
+   
+.ch6{
+    height: 7rem;
+    width: 7rem;
+    background-color: whitesmoke;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+}
+.ch6:hover{
+    width: 18.75rem;
+}
+
+.ch7{
+    height: 7rem;
+    width: 7rem;
+    background-color: whitesmoke;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+}
+.ch7:hover{
+    width: 18.75rem;
+}
+.back{
+    display: inline-block;
+    font-size: x-large;
+    margin-top: 5%;
+    background-color: red;
+}

@@ -1,0 +1,469 @@
+.parent{
+    /* display: flex; */
+    background-color:skyblue;
+    padding-bottom: 10%;
+    margin-bottom: 1%;
+    justify-content: space-between;
+    justify-items: center;
+    height: 80vh;
+    width: 99%;
+    text-align: center;
+    font-size: large;
+}
+/* parent1 */
+.parent1{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+    
+    /* background-color: pink; */
+}
+.ch11{margin-top: 5%;
+    /* position: relative; */
+    margin-left: 2%;
+    margin-right: 5%;
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(243, 109, 109);
+    animation-name:vipin11 ;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    /* /* animation-fill-mode: forwards; */
+    animation-timing-function: ease-in; 
+    /* transition: all; */
+    /* transform: skewX(30deg); */
+}
+    
+ @keyframes vipin11 {
+    0%{
+        transform: skewX(0deg);
+       
+         
+    }
+    50%{
+        transform: skewX(40deg);
+         
+    }
+    /* 50%{
+        transform: skewX(-40deg);
+         
+    } */
+100%{
+        transform: skewX(-40deg);
+         
+    }
+
+}
+.ch21{margin-left: 3%;
+    margin-top: 5%;
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: rgb(243, 109, 109);
+    animation-name:vipin21 ;
+    animation-duration: 5s;
+    
+    animation-timing-function: ease-in; 
+    animation-iteration-count: infinite;
+} @keyframes vipin21 {
+    0%{
+        transform: skewX(0deg);
+       
+         
+    }
+    50%{
+        transform: skewX(40deg);
+         
+    }
+    /* 50%{
+        transform: skewX(-40deg);
+         
+    } */
+100%{
+        transform: skewX(-40deg);
+         
+    }
+
+   
+}
+.ch31
+{    margin-top: 5%;
+    margin-left: 7%;
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(243, 109, 109);
+     animation-name:vipin31 ;
+    animation-duration: 5s;
+    
+    /* animation-fill-mode: forwards;
+    
+    transition: all;
+    animation-direction: normal; */
+    /* transform: skewX(30deg); */
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+} @keyframes vipin31 {
+    0%{
+        transform: skewX(0deg);
+       
+         
+    }
+    50%{
+        transform: skewX(40deg);
+         
+    }
+    /* 50%{
+        transform: skewX(-40deg);
+         
+    } */
+100%{
+        transform: skewX(-40deg);
+         
+    }
+
+ 
+}
+ 
+    
+/* parent2 */
+.parent2{
+    display: flex;
+   
+    height: 30%;
+    width: 105%;
+    justify-content: center;
+    
+    /* background-color: red; */
+}
+.ch12{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 5%;
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(103, 103, 226);
+    animation-name:vipin12 ;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+   
+    animation-timing-function: ease-in;
+    
+} @keyframes vipin12 {
+    0%{
+        transform: skewy(0deg);
+       
+         
+    }
+    50%{
+        transform: skewy(40deg);
+         
+    }
+    /* 50%{
+        transform: skewX(-40deg);
+         
+    } */
+100%{
+        transform: skewy(-40deg);
+         
+    }
+
+}
+.ch22{margin-top: 5%;
+    position: relative;
+    margin-left: 2%;
+    margin-right: 5%;
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(103, 103, 226);
+    animation-name:vipin22 ;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+   
+    animation-timing-function: ease-in;
+    
+} @keyframes vipin22 {
+    0%{
+        transform: skewy(0deg);
+       
+         
+    }
+    50%{
+        transform: skewy(40deg);
+         
+    }
+    /* 50%{
+        transform: skewX(-40deg);
+         
+    } */
+100%{
+        transform: skewy(-40deg);
+         
+    }
+
+}
+.ch32
+{  margin-top: 5%;
+    position: relative;
+    margin-left: 2%;
+    margin-right: 5%;
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(103, 103, 226);
+    animation-name:vipin32 ;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+   
+    animation-timing-function: ease-in;
+    
+} @keyframes vipin32 {
+    0%{
+        transform: skewy(0deg);
+       
+         
+    }
+    50%{
+        transform: skewy(40deg);
+         
+    }
+    /* 50%{
+        transform: skewX(-40deg);
+         
+    } */
+100%{
+        transform: skewy(-40deg);
+         
+    }
+
+}
+
+/* parent3 */
+.parent3{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+    
+    /* background-color: aqua; */
+}
+.ch13{margin-top: 5%;
+    position: relative;
+    margin-left: 2%;
+    margin-right: 5%;
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(103, 103, 226);
+    animation-name:vipin13 ;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    /* animation-fill-mode: forwards; */
+    animation-timing-function: ease-in-out;
+    transition: all;
+} @keyframes vipin13 {
+  from{
+    transform:rotate(0deg);
+  }
+  to{
+      transform: rotate(360deg);
+  }
+}
+.ch23{margin-left: 3%;
+    margin-top: 5%;
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: rgb(103, 103, 226);
+    animation-name:vipin23 ;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    /* animation-fill-mode: forwards; */
+    animation-timing-function: ease-in-out;
+    transition: all;
+    /* animation-direction: normal; */
+} @keyframes vipin23 {
+  from{
+    transform:rotate(0deg);
+  }
+  to{
+      transform: rotate(360deg);
+  }
+}
+
+    
+.ch33
+{    margin-top: 5%;
+    margin-left: 7%;
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(103, 103, 226);
+     animation-name:vipin33 ;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    
+    animation-timing-function: ease-in-out;
+    
+   
+} @keyframes vipin33 {
+  from{
+    transform:rotate(0deg);
+  }
+  to{
+      transform: rotate(360deg);
+  }
+}
+
+/*parent4*/
+
+.parent4{
+    display: flex;
+    height: 30%;
+
+    width: 97vw;
+    justify-content: center;
+    
+    /* background-color: red; */
+}
+.ch14{
+     margin-top: 45px;
+    margin-right: 50px;
+    margin-left: 30px;
+    height: 5rem;
+    width: 5rem;
+    background-color: yellow;
+    animation-name:vipin14 ;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    
+} @keyframes vipin14 {
+    0%{
+        height: 15px;
+    }
+   50% {
+        height: 80px;
+    }
+   100% {
+        height: 12px;
+    }
+
+
+ 
+/* from{
+    transform: skew(0deg);
+}
+to{
+    transform: skew(45deg);
+} */
+}
+    
+
+.ch24{
+    margin-right: 40px;
+    margin-top: 45px;
+    margin-left: 45px;
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: red;
+    animation-name:vipin24 ;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    transition: all;
+    animation-direction: normal;
+} @keyframes vipin24 {
+   0%{
+        width: 15px;
+    }
+   50% {
+        width: 80px;
+    }
+   100% {
+        width: 12px;
+    }
+
+}
+.ch34
+{    margin-top: 45px;
+    margin-left: 45px;
+    height: 5rem;
+    width: 5rem;
+    background-color: red;
+     animation: vipin34 ;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    /* animation-fill-mode: forwards; */
+    animation-timing-function: ease-in-out;
+    /* transition: all; */
+    animation-direction: normal;
+    transform: translate(30px);
+} @keyframes vipin34 {
+0%{
+    transform:rotate(0deg);
+  }
+  25%{
+      transform: rotate(-90deg);
+  }
+  50%{
+      transform: rotate(20deg);
+  }
+  100%{
+      transform: rotate(0deg);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .child{
+    height: 4.5rem;
+    width: 3.9rem;
+    background-color: red;
+    position: relative;
+    animation-name:vipin ;
+    animation-duration: 9s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-direction: linear;
+    transition: all;
+    animation-delay: 0ms;
+} @keyframes vipin {
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+       transform: rotate(360deg);
+        }
+    } */
